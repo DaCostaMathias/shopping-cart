@@ -1,4 +1,4 @@
-# Developper Notes
+# Developer Notes
 
 I decided to use Create-React-App because it is a static page;
 
@@ -8,7 +8,7 @@ The states are stored in the localStorage but the performance could be improved;
 
 For the frontend, I imported bootstrap-react and font-awesome-react to mock cart preview page with products that may interest the visitor;
 
-# Possible improvements
+# Possible Improvements
 
     * Change the structure of the cart states for scaling up for more products;
     * Stagger the state saves;
