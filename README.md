@@ -1,3 +1,19 @@
+# Developper Notes
+
+I decided to Create React App because it is a static page;
+
+I added middleware redux thunk to use redux-logger for better debug features with the pluggin Redux Devtool and having access to chain dispatches for the cart reducer;
+
+the states are stored in the localstorage but the performance could be improved;
+
+For the frontend I imported bootstrap-react and font-awesome-react to mock cart preview page with products you may interest the visitor;
+
+# Possible improvements
+
+    * Staggered the state saves;
+    * Add picture to the products;
+    * Create presentation pages for each products;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
