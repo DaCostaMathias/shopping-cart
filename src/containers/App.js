@@ -37,12 +37,12 @@ function App() {
   return (
     <Provider store={store}>
       <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="#home">BumingZ MEGA 9</Navbar.Brand>
+        <Navbar.Brand href="#home">Mitre 9 MEGA</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <Nav.Link href="#cart" active>
+          <Nav.Link href="#cart">
             Cart
           </Nav.Link>
         </Nav>

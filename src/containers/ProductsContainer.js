@@ -7,7 +7,7 @@ import { Row } from "react-bootstrap";
 
 function ProductsContainer({ products, addToCart }) {
   return (
-    <ProductsList title="Products That may interrest you">
+    <ProductsList title="Products that may interest you">
       <Row style={{ margin: 10, padding: 25 }}>
         {products.map((product) => (
           <ProductItem
