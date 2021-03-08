@@ -10,9 +10,12 @@ For the frontend I imported bootstrap-react and font-awesome-react to mock cart 
 
 # Possible improvements
 
+    * Change the structure of the cart states for scaling up for more products;
     * Staggered the state saves;
     * Add picture to the products;
-    * Create presentation pages for each products;
+    * Create presentation pages for each products; and
+    * Fix the total to the bottom of the pages;
+    
 
 # Getting Started with Create React App
 
