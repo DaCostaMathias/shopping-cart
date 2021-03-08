@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function ProductsList ({ title, children }) {
-    return(
-        <div>
-          <h3>{title}</h3>
-          <div>{children}</div>
-        </div>
-      )
-} 
+import { Col } from "react-bootstrap";
 
-export default ProductsList
+function ProductsList({ title, children }) {
+  return (
+    <Col>
+      <h3>{title}</h3>
+      <div>{children}</div>
+    </Col>
+  );
+}
+
+export default ProductsList;
